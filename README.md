@@ -1,6 +1,9 @@
 # discord-faucet-request
 Auto request tokens via Discord faucet every 3 hours
 
+# Requirements
+Python v. 3.6+
+
 # How to start
 1. Clone repo - `git clone https://github.com/c29r3/discord-faucet-request.git && cd discord-faucet-request`
 1. Go to your discord client (desktop\web) 
@@ -13,3 +16,14 @@ Auto request tokens via Discord faucet every 3 hours
 7. Copy your coda public key to variable `pubkey` in `faucet_request.py`
 8. `chmod u+x faucet_request.py`
 9. Start the script `python3 faucet_request.py`
+
+# Note
+Just keep in mind that this authorization token gives full access to the Discord account. It must not be shown to anyone
+
+You can create a binary file for this script, then no one can see the specified token. 
+On Ubuntu machine:
+`sudo apt install python3-pip`
+`pip3 install pyinstaller`
+`pyinstaller -F faucet_request.py`
+
+If everything is ok, then you will get an executable file in the folder dist. Other created folders can be deleted.
