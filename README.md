@@ -21,9 +21,9 @@ Python v. 3.6+
 Just keep in mind that this authorization token gives full access to the Discord account. It must not be shown to anyone
 
 You can create a binary file for this script, then no one can see the specified token. 
-On Ubuntu machine:
-`sudo apt install python3-pip`
-`pip3 install pyinstaller`
+On Ubuntu machine:\
+`sudo apt install python3-pip`\
+`pip3 install pyinstaller`\
 `pyinstaller -F faucet_request.py`
 
 If everything is ok, then you will get an executable file in the folder dist. Other created folders can be deleted.
