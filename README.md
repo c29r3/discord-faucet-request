@@ -1,6 +1,9 @@
 # discord-faucet-request
 Auto request tokens via Discord faucet every 3 hours
 
+# DISCLAIMER  
+Discord started getting banned for automating account management. I don't recommend using this method anymore.
+
 # Requirements
 Python v. 3.6+
 
